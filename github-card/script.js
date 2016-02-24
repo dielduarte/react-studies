@@ -5,9 +5,14 @@ var Card = React.createClass({
     componentDidMount: function(){
       var component = this;
 
-      $.get('https://api.github.com/users/' + this.props.login, function(data){
-          component.setState(data);
-      });
+
+        fetch('https://api.github.com/users/' + this.props.login).then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            component.setState(data);
+        }).catch(function() {
+            console.log("Booo");
+        });
     },
     render: function() {
         return (
