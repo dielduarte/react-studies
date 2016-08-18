@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/diel/.nvm/versions/node/v5.1.0/bin/node',
+1 verbose cli   '/Users/diel/.nvm/versions/node/v5.1.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@3.5.3
+3 info using node@v5.1.0
+4 verbose stack Error: missing script: start
+4 verbose stack     at run (/Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/lib/run-script.js:147:19)
+4 verbose stack     at /Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/lib/run-script.js:57:5
+4 verbose stack     at /Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:284:20)
+4 verbose stack     at ReadFileContext.callback (/Users/diel/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:324:13)
+5 verbose cwd /Users/diel/Documents/localhost/public/react-studies/react-redux
+6 error Darwin 15.4.0
+7 error argv "/Users/diel/.nvm/versions/node/v5.1.0/bin/node" "/Users/diel/.nvm/versions/node/v5.1.0/bin/npm" "run" "start"
+8 error node v5.1.0
+9 error npm  v3.5.3
+10 error missing script: start
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
